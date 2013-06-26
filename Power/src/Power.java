@@ -1,4 +1,3 @@
-
 public class Power {
 
 	static int ampere;
@@ -30,10 +29,10 @@ public class Power {
 	public static void main(String[] args) {
 		setAmpere(30);
 		setResistor(40);
-		System.out.println("The Voltage is: " + getVoltage() + "V");
-		System.out.println("The Power is: " + getPower() + "W");
 		System.out.println("The Current is: " + getAmpere() + "A");
 		System.out.println("The Resistance is: " + getResistor() + "Ohm");
+		System.out.println("The Voltage is: " + getVoltage() + "V");
+		System.out.println("The Power is: " + getPower() + "W");
 
 	}
 
